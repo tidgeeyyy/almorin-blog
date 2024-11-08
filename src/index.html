@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas's Resume & Blog</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Corrected relative path to styles.css -->
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
-    <a class="navbar-brand font-weight-bold" href="#">Thomas's Blog</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm fixed-top">
+    <a class="navbar-brand font-weight-bold text-light" href="#">Thomas’ Insight Hub</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#blog">Blog</a></li>
         </ul>
     </div>
 </nav>
 
 <!-- Header Section -->
-<header class="jumbotron jumbotron-fluid text-center text-white d-flex align-items-center">
+<header class="jumbotron jumbotron-fluid text-center text-white d-flex align-items-center" style="background-color: #0B0C10;">
     <div class="container">
         <h1 class="display-4">Welcome to My World</h1>
         <p class="lead">Explore my journey, skills, and passions.</p>
@@ -34,16 +34,16 @@
 </header>
 
 <!-- Resume Section -->
-<section id="resume" class="container my-5">
+<section id="resume" class="container my-5 text-light">
     <h2 class="text-center font-weight-bold mb-4">Resume</h2>
     <div class="row align-items-center">
         <div class="col-md-4 text-center">
             <img src="https://via.placeholder.com/200" alt="Your Photo" class="profile-img rounded-circle shadow">
         </div>
         <div class="col-md-8">
-            <h3 class="font-weight-bold">Thomas</h3>
-            <p><i class="fas fa-envelope"></i> thomas@example.com</p>
-            <p><i class="fas fa-map-marker-alt"></i> City, Country</p>
+            <h3 class="font-weight-bold">Thomas Joseph</h3>
+            <p><i class="fas fa-envelope"></i> thomasjoseph.almorin@edu.tup.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Caloocan City, Philippines</p>
             <h4>Skills</h4>
             <ul>
                 <li>Web Development: HTML, CSS, JavaScript, Bootstrap</li>
@@ -57,36 +57,36 @@
 </section>
 
 <!-- Blog Section -->
-<section id="blog" class="container my-5">
+<section id="blog" class="container my-5 text-light">
     <h2 class="text-center font-weight-bold mb-4">Blog</h2>
     <div class="row">
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
                 <img src="https://via.placeholder.com/400" class="card-img-top" alt="Coding">
-                <div class="card-body">
+                <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">My Coding Journey</h5>
                     <p class="card-text">From beginner to budding developer, coding has been a transformative journey. Join me as I explore the world of programming!</p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                    <a href="#" class="btn btn-outline-info btn-sm">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
                 <img src="https://via.placeholder.com/400" class="card-img-top" alt="Gaming">
-                <div class="card-body">
+                <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">Favorite Hobby: Gaming</h5>
                     <p class="card-text">Gaming has been a passion of mine, offering both relaxation and challenge. Check out my favorite games and experiences!</p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                    <a href="#" class="btn btn-outline-info btn-sm">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
                 <img src="https://via.placeholder.com/400" class="card-img-top" alt="Military Enthusiasm">
-                <div class="card-body">
+                <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">Military Hardware Enthusiast</h5>
                     <p class="card-text">I enjoy exploring and learning about advanced military technology. Let's talk about the latest developments!</p>
-                    <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                    <a href="#" class="btn btn-outline-info btn-sm">Read More</a>
                 </div>
             </div>
         </div>
@@ -94,8 +94,8 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-light text-center py-3 shadow-sm">
-    <p class="m-0">&copy; 2024 Thomas's Blog | Made with ❤️</p>
+<footer class="bg-dark text-center py-3 shadow-sm">
+    <p class="m-0 text-light">&copy; 2024 Thomas’ Insight Hub | Made with ❤️</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

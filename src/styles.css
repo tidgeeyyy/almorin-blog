@@ -1,56 +1,88 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    margin-top: 80px; /* Offset for the fixed navbar */
 }
 
+/* Navbar */
 .navbar {
-    font-weight: 600;
+    background-color: #1F2833;
 }
 
-.jumbotron {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x600') no-repeat center center;
-    background-size: cover;
-    color: #fff;
-    height: 60vh;
+.navbar-brand {
+    color: #66FCF1 !important;
 }
 
+.nav-link {
+    color: #C5C6C7 !important;
+}
+
+.nav-link:hover {
+    color: #66FCF1 !important;
+}
+
+/* Header Section */
+header {
+    background-color: #0B0C10;
+    padding: 100px 0;
+}
+
+header h1, header p {
+    color: #66FCF1;
+}
+
+/* Profile Image */
 .profile-img {
     width: 150px;
     height: 150px;
-    border: 5px solid #f8f9fa;
-    transition: transform 0.3s ease;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #66FCF1;
 }
 
-.profile-img:hover {
-    transform: scale(1.1);
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
+/* Blog Cards */
 .card {
-    border-radius: 15px;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-}
-
-.hover-zoom:hover .card-img-top {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .card-img-top {
-    transition: transform 0.3s ease;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
+/* Blog Card Body */
+.card-body {
+    background-color: #1F2833;
+}
+
+.card-title {
+    color: #66FCF1;
+}
+
+.card-text {
+    color: #C5C6C7;
+}
+
+.card a {
+    color: #45A29E;
+}
+
+.card a:hover {
+    color: #66FCF1;
+}
+
+/* Footer */
 footer {
-    font-size: 0.85rem;
-    background-color: #f8f9fa;
+    background-color: #1F2833;
+    color: #C5C6C7;
+}
+
+footer p {
+    font-size: 0.9em;
 }
