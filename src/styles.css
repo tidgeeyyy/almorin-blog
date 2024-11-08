@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    font-weight: 600;
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x600') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 60vh;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f8f9fa;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.hover-zoom:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer {
+    font-size: 0.85rem;
+    background-color: #f8f9fa;
+}
