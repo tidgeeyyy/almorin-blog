@@ -55,8 +55,13 @@ header p {
     color: #C5C6C7; /* Slightly muted color for list items and card text */
 }
 
+/* Profile Image */
 .profile-img {
-    border: 4px solid #66FCF1;
+    width: 150px; /* Set desired width */
+    height: 150px; /* Set desired height */
+    border-radius: 50%; /* Make the image circular */
+    border: 4px solid #66FCF1; /* Border color to match theme */
+    object-fit: cover; /* Keeps the image within bounds and cropped */
 }
 
 /* Blog Section */
