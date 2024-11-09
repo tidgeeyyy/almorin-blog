@@ -103,6 +103,17 @@ header p {
     color: #0B0C10;
 }
 
+/* Gallery Section */
+#gallery .card-img-top {
+    object-fit: cover;
+    height: 200px; 
+    transition: transform 0.3s ease;
+}
+
+#gallery .card:hover .card-img-top {
+    transform: scale(1.05); 
+}
+
 /* Contact Me Section */
 #contact {
     background-color: #1F2833; 
