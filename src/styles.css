@@ -1,10 +1,10 @@
 /* Base Styling */
 html body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url('assets/deer teal.png'); /* Set the image as background */
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-position: center; /* Center the image */
-    color: #C5C6C7; /* Light gray font color for general text */
+    background-image: url('assets/deer teal.png'); /* image background */
+    background-size: cover; 
+    background-position: center; 
+    color: #C5C6C7; /* font color for general text */
     margin: 0;
     padding: 0;
 }
@@ -47,33 +47,33 @@ header p {
 
 /* Resume Section */
 #resume {
-    background-color: #1F2833; /* Dark background for Resume section */
-    color: #C5C6C7; /* Light text color */
-    padding: 30px; /* Add padding to give some space around the content */
-    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
+    background-color: #1F2833; 
+    color: #C5C6C7; 
+    padding: 30px; 
+    border-radius: 10px; 
 }
 
 #resume h2, #blog h2 {
-    color: #66FCF1; /* Light color for headers */
+    color: #66FCF1; 
 }
 
 #resume h3, #resume p, #blog .card-title, #blog .card-text {
-    color: #66FCF1; /* Matching font color for relevant text */
+    color: #66FCF1;
 }
 
 #resume ul li, #blog .card-body p {
-    color: #C5C6C7; /* Slightly muted color for list items and card text */
+    color: #C5C6C7;
 }
 
 
 
 /* Profile Image */
 .profile-img {
-    width: 250px; /* Set desired width */
-    height: 250px; /* Set desired height */
-    border-radius: 50%; /* Make the image circular */
-    border: 4px solid #66FCF1; /* Border color to match theme */
-    object-fit: cover; /* Keeps the image within bounds and cropped */
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    border: 4px solid #66FCF1;
+    object-fit: cover;
 }
 
 /* Blog Section */
@@ -105,32 +105,32 @@ header p {
 
 /* Contact Me Section */
 #contact {
-    background-color: #1F2833; /* Dark background for contrast */
+    background-color: #1F2833; 
     border-radius: 10px;
     padding: 30px 15px;
 }
 
 #contact h2 {
-    color: #66FCF1; /* Heading color to match theme */
+    color: #66FCF1; 
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 #contact .form-group label {
     font-size: 1.2rem;
-    color: #C5C6C7; /* Label color */
+    color: #C5C6C7; 
 }
 
 #contact .form-control {
-    background-color: #333739; /* Dark background for input fields */
-    border: 1px solid #66FCF1; /* Border color to match theme */
-    color: #C5C6C7; /* Text color */
+    background-color: #333739; 
+    border: 1px solid #66FCF1; 
+    color: #C5C6C7; 
     font-size: 1.1rem;
 }
 
 #contact .form-control:focus {
-    border-color: #66FCF1; /* Border color when focused */
-    background-color: #1F2833; /* Background when focused */
+    border-color: #66FCF1; 
+    background-color: #1F2833; 
 }
 
 #contact button {
@@ -148,7 +148,7 @@ header p {
 }
 
 #contact #clearBtn {
-    background-color: #FF5C5C; /* Red color for the Clear button */
+    background-color: #FF5C5C;
     color: #fff;
     font-size: 1.2rem;
     padding: 12px;
@@ -157,7 +157,7 @@ header p {
 }
 
 #contact #clearBtn:hover {
-    background-color: #FF2D2D; /* Hover effect for Clear button */
+    background-color: #FF2D2D; 
 }
 
 /* Modal */
