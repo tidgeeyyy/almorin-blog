@@ -26,45 +26,65 @@
 </nav>
 
 <!-- Header Section -->
-<header class="jumbotron jumbotron-fluid text-center text-white d-flex align-items-center" style="background-color: #0B0C10;">
+<header class="jumbotron jumbotron-fluid text-center text-white d-flex align-items-center" style="background-color: #12171e; height: 250px; padding-top: 90px; padding-bottom: 30px;">
     <div class="container">
-        <h1 class="display-4">Welcome to My World</h1>
+        <h1 class="display-4">Welcome to My Hub</h1>
         <p class="lead">Explore my journey, skills, and passions.</p>
     </div>
 </header>
 
 <!-- Resume Section -->
 <section id="resume" class="container my-5 text-light">
-    <h2 class="text-center font-weight-bold mb-4">Resume</h2>
+    <h2 class="text-left font-weight-bold mb-4">Resume</h2>
+    <hr class="my-4" style="border: 2px solid #fff; opacity: 0.7;"> <!-- This will make the line thicker and more visible -->
     <div class="row align-items-center">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center" style="margin-top: -100px;"> <!-- Adjust this value to control the height -->
             <!-- Updated the src attribute to point to your profile picture in the assets folder -->
             <img src="assets/profile.png" alt="Your Photo" class="profile-img rounded-circle shadow">
         </div>
         <div class="col-md-8">
-            <h3 class="font-weight-bold">Thomas Joseph</h3>
+            <h3 class="font-weight-bold">Thomas Joseph Almorin</h3>
             <p><i class="fas fa-envelope"></i> thomasjoseph.almorin@edu.tup.com</p>
             <p><i class="fas fa-map-marker-alt"></i> Caloocan City, Philippines</p>
+
+            <!-- Objectives Section -->
+            <h4>Objectives</h4>
+            <p>I am a motivated BS Information Systems student eager to expand my knowledge in data analysis, web development, and software programming. I aim to apply my skills in real-world projects and continually improve through hands-on experience, with a focus on creating user-friendly and impactful systems for businesses and the environment.</p>
+
+            <!-- Education Section -->
+            <h4>Education</h4>
+            <p>Bachelor's Degree in Information Systems (Ongoing)</p>
+            
+            <!-- Skills Section -->
             <h4>Skills</h4>
             <ul>
                 <li>Web Development: HTML, CSS, JavaScript, Bootstrap</li>
                 <li>Business Intelligence: Data analysis, Power BI</li>
                 <li>Project Management and Collaboration</li>
             </ul>
-            <h4>Education</h4>
-            <p>Bachelor's Degree in Information Systems (Ongoing)</p>
+
+            <!-- Projects Section -->
+            <h4>Projects</h4>
+            <ul>
+                <li>Word By Word (2023)</li>
+                <li>ATM Simulation (2023)</li>
+                <li>Text Compressor and Decompressor (2023)</li>
+            </ul>
         </div>
     </div>
 </section>
 
 
+
 <!-- Blog Section -->
 <section id="blog" class="container my-5 text-light">
-    <h2 class="text-center font-weight-bold mb-4">Blog</h2>
+    <h2 class="text-left font-weight-bold mb-4">Blog</h2>
+    <hr class="my-4" style="border: 2px solid #fff; opacity: 0.7;"> <!-- Visible line added here -->
     <div class="row">
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
-                <img src="https://via.placeholder.com/400" class="card-img-top" alt="College Life">
+                <!-- Replace the placeholder link with your college.png -->
+                <img src="assets/college.png" class="card-img-top" alt="College Life">
                 <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">My Life as a College Student</h5>
                     <p class="card-text">From adjusting to university life to balancing academics, this blog is about my personal experiences and growth as a college student.</p>
@@ -92,7 +112,8 @@
 
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
-                <img src="https://via.placeholder.com/400" class="card-img-top" alt="Gaming">
+                <!-- Use the correct path for the gaming.png image -->
+                <img src="assets/gaming.png" class="card-img-top" alt="Gaming">
                 <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">Favorite Hobby: Gaming</h5>
                     <p class="card-text">Gaming has been a passion of mine, offering both relaxation and challenge. Check out my favorite games and experiences!</p>
@@ -100,7 +121,7 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- Modal for "Gaming" -->
         <div class="modal fade" id="modalGaming" tabindex="-1" role="dialog" aria-labelledby="modalGamingLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -120,7 +141,8 @@
 
         <div class="col-md-4 mb-4">
             <div class="card shadow border-0 hover-zoom">
-                <img src="https://via.placeholder.com/400" class="card-img-top" alt="Military Enthusiasm">
+                <!-- Use the correct path for the military.png image -->
+                <img src="assets/military.png" class="card-img-top" alt="Military Enthusiasm">
                 <div class="card-body" style="background-color: #1F2833;">
                     <h5 class="card-title font-weight-bold">Military Hardware Enthusiast</h5>
                     <p class="card-text">I enjoy exploring and learning about advanced military technology. Let's talk about the latest developments!</p>
@@ -128,7 +150,7 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- Modal for "Military Hardware" -->
         <div class="modal fade" id="modalMilitaryHardware" tabindex="-1" role="dialog" aria-labelledby="modalMilitaryHardwareLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -149,12 +171,13 @@
     </div>
 </section>
 
+
 <!-- Contact Me Section -->
 <section id="contact" class="container my-5 text-light">
     <h2 class="text-center font-weight-bold mb-4">Contact Me</h2>
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <form action="mailto:thomasjoseph.almorin@edu.tup.com" method="POST" enctype="multipart/form-data">
+            <form id="contactForm" action="mailto:thomasjoseph.almorin@edu.tup.com" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -167,11 +190,16 @@
                     <label for="message">Your Message</label>
                     <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline-info btn-block">Send Message</button>
+                <div class="form-group d-flex justify-content-between">
+                    <button type="submit" class="btn btn-outline-info">Send Message</button>
+                    <button type="reset" class="btn btn-outline-danger" id="clearBtn">Clear all</button>
+                </div>
             </form>
         </div>
     </div>
 </section>
+
+
 
 <!-- Footer Section -->
 <footer class="bg-dark text-light text-center py-3">
